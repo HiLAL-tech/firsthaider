@@ -1,0 +1,112 @@
+h1{
+    position: relative;
+    text-transform:uppercase;
+    text-align: center;
+    color: black;
+    background-color: turquoise;
+    letter-spacing: 10px; /*spcae between letters*/
+    word-spacing: 10px;  /*spcae between words*/
+    line-height: 45px;
+    text-decoration: underline;
+    font-family: monospace;
+   font-size: 25px;
+   font-weight: 100; /*from 100 - 900*/
+   font-style:bold;
+   left: 50%;
+   transform: translate(-50% );
+}
+.header , .me{
+    float: left;
+    position: absolute;
+   
+    top: 30%;
+    transform: translate(50%);
+}
+.header{
+
+transform: translate(-100%,-50%);
+    width: 100px;
+    height: 50px;
+   margin: 10px;
+   padding:10px;
+  color: seagreen;
+   background-color: steelblue;
+   border: 5px black double;
+   outline: 5px hotpink double;
+   text-align: center;
+    text-transform:capitalize;
+    overflow: auto;/* show scroll when you need*/
+ 
+}
+div.me{
+    transform: translate(100%,-50%);
+    display: inline-block;
+    width: 100px;
+       height: 50px;
+    margin:10px ;/*area between elements*/
+    padding: 10px;
+     border: 5px crimson outset;
+     outline: 5px black  double;
+    background-image: url('D:\images (1).jpg');
+    background-repeat:no-repeat ;
+    background-position-x: 100%;
+    color: teal;
+    font-style: italic;
+    text-align:center; /*the direction of text*/
+    text-transform:capitalize;
+  
+  
+   
+}
+span.i{
+    color: black;
+    
+}
+span.ra{
+    color: green;
+}
+span.q{
+    color: red;
+}
+.list{
+    display: inline;
+}
+.l1{
+
+    list-style-type: none;
+   /* list-style-image: ; when you want photo*/
+   
+}
+table{
+    caption-side: bottom;
+    width:150px;
+    height: 150px;
+    
+}
+td{
+    vertical-align: middle;/*display*/
+    
+}
+.class1{display: none;
+    color: red;
+    display: ;
+
+}
+
+#id1{
+    display: none;
+    color: hotpink;
+
+}
+li{position: relative;
+    left: 0;
+    top: 0;
+    display: inline-block;/* make list vertical*/
+    color:forestgreen;
+    margin: 10px;
+    padding: 10px;
+    width: 100;
+    height: 100;
+  letter-spacing: 4px;
+  
+}

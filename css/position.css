@@ -1,0 +1,59 @@
+
+h1{width: 70%;
+    height: 50px;
+    text-align: left;
+    letter-spacing:25px;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: chartreuse;
+    color:black;
+    text-shadow: 2px 2px 5px red;
+    font-style: italic;
+   border: 10px black double; /*اطار*/
+    
+
+}
+#img1{margin: 10px;
+    position:relative ;/*قيمتها ريلتف تتحرك بالنسبة للصفحة كالمة*/
+    left: 50%;
+    /*z-index: ;indexعمق الصورة تستخدم مثلا لاظهار صورة فوق صورة  بالابسلوت*/
+    
+}
+#img2{margin: 10px;/*المسافة بين العناصر*/
+    position: absolute;/*قيمتها ابسلوت تتحرك بالنسبة للريلتف الفوكاها */
+    right: 50%;
+    
+}
+#img3{margin: 10px;
+    position: relative;
+    left: 50%;
+    
+}
+#img4{margin: 10px;
+    position: absolute;
+    right: 50%;
+}
+.house{
+    background: black;
+}
+.hd{width: 20%;
+    height:200px;
+    margin: 10px;
+    border: black 2px solid;
+    background-color: darkmagenta;
+    float: left;/*الفلوت جتة اجيب العناصر بصف بعض ولازم استخدام كلير حتة تحل مشاكله*/
+}
+.clear{
+    clear: both;/*لازم وية الفلوت حتة تحل مشاكله*/
+}
+
+
+
+
+/*opacity from(0-1_تتجكم بشفافية الصورة*/
+#img5{position: absolute;
+    opacity:0.5 ;
+}
+#img5:hover{
+    opacity: 1;
+}
